@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: radial-gradient(rgb(217, 18, 111), black);
+  place-content: center;
+  font-family: Arial, sans-serif; /* Set a more common font family */
+}
+
+.main-div {
+  background-color: rgba(255, 255, 255, 0.9); /* Add a semi-transparent white background */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Add some padding for spacing */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+}
+
+.fa-book{
+  font-size: 2rem;
+  display: flex;
+  place-content: center;
+  color: #14aacb;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-left: 3.5rem;/* Reduce the margin for a more compact header */
+  color: #000000; /* Darken the text color for readability */
+  font-family:Impact, 'Arial Narrow Bold', sans-serif;
+  font-weight: lighter;
+  
+}
+
+.fa-pen-nib{
+  margin-left: 1rem;
+}
+
+.addItems {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.addItems input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px; /* Add space between input and button */
+}
+
+.addItems i.fa-plus {
+  font-size: 25px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.addItems i.fa-plus:hover {
+  color: darkcyan; /* Change the color on hover */
+}
+
+.showItems .eachItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff; /* White background for each item */
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.showItems .eachItem i.fa-trash {
+  font-size: 20px;
+  color: red; /* Set a red color for the delete icon */
+  cursor: pointer;
+  transition: color 0.3s;
+  margin-left: 3rem;
+}
+
+.showItems .eachItem i.fa-trash:hover {
+  color: darkred; /* Change the color on hover */
+}
+
+
+
+
+.showItems button.btn {
+  background-color: #2bd9d6;
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  
+  margin-top: 3rem;
+  
+}
+
+button.btn:hover {
+  background-color: #4460ef; /* Darken the button on hover */
+}
+
+
+
+
